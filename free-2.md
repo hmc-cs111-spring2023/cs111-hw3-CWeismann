@@ -13,19 +13,19 @@ them?_
 
 Accordion music is generally written on a regular grand staff, with keyboard notes written in the treble clef and bass notes/Stradella chords written in the bass clef. However, a great deal is left out in these directions, like when to reverse bellows direction, or sort of tacked on top, like the notation for which chord to play, when to switch registers, bellows shake, and noise-sounds.
 
-Additionally, one of the virtues of having the Stradella bass system, in which chords can be played with a single button, is that beginner accordionists do not have to learn how chords are constructed, and more information could be communicated quicker with a more compact notation, which could serve as a sort of tablature (tab) for casual players.
+Additionally, one of the virtues of having the Stradella bass system, in which chords can be played with a single button, is that beginner accordionists do not have to learn how chords are constructed, and more information could be communicated quicker with a more compact notation, which could serve as a sort of tablature (tab) or fake book for players.
 
 ### Why a language?
 
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
 
-It provides a compact, easy-to-learn notation, that could also easily be converted into a MIDI file to allow playback to help learn new songs.
+It provides a compact, easy-to-learn notation, that could also easily be converted into a MIDI file to allow playback to help learn new songs. This will address some of the difficulty of learning music for new accordionists, and standardize some of the strange notation that is used currently.
 
 ### Why you?
 
 _What excites you about this idea? How did you come up with it?_
 
-I'm an amateur accordionist, and while I already know how to read music, I know its a barrier of entry for many others, which especially irks me for such a beginner-friendly instrument.
+I'm an amateur accordionist, and while I already know how to read music, I know its a barrier of entry for many others, which especially irks me for such a beginner-friendly instrument. A quite skilled accordionist that I sometimes watch lesson videos of noted that he was unable to read music, which got me thinking about how accordion notation could be improved.
 
 ### Domain
 
@@ -38,7 +38,7 @@ Beginner-friendly notation for accordions
 _How might the user interact with the language? What does programming look
 like? Why is this the right way to interact with the problem domain?_
 
-The user interacts with the language by reading and/or writing the notation to a file, which can then be compiled into a more visual-friendly notation, or played out as a MIDI file.
+The user interacts with the language by reading and/or writing the notation to a file, which can then be compiled into a more visual-friendly notation, or played out as a MIDI file. This allows the DSL to interact with both parts of the domain of music notation: its visual form and its audible form.
 
 ### Operation (semantics)
 

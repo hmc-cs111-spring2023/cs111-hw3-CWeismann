@@ -11,13 +11,13 @@ _What need is met by your idea? Who are you helping? What is that person's
 experience like now? What would their experience be like if you could help
 them?_
 
-Precision machining often requires referencing copious amounts of printed tables to ensure perfect accuracy. However, this can take a significant amount of time, only made worse by imperial-metric conversions and tool quirks.
+Precision machining often requires referencing copious amounts of printed tables to ensure perfect accuracy. However, this can take a significant amount of time, only made worse by imperial-metric conversions and tool quirks. This would help machinists, including the proctors of the Harvey Mudd machine shop, by requiring them to use fewer paper lookup charts and be able to check conversions much faster.
 
 ### Why a language?
 
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
 
-While merely performing table lookups would be better suited to somethink like a database with lookups, the ability for individual machinists to customize the lookups to their own shop and relevant specifications means that a DSL is more flexible and more useful.
+While merely performing table lookups would be better suited to somethink like a database with lookups, the ability for individual machinists to customize the lookups to their own shop and relevant specifications means that a DSL is more flexible and more useful. This will also allow collaboration between shops that may be physically far apart.
 
 ### Why you?
 
@@ -36,7 +36,7 @@ Customizable reference tables for machining
 _How might the user interact with the language? What does programming look
 like? Why is this the right way to interact with the problem domain?_
 
-The user would be able to type into a terminal prompt in a sort of SQL-like access, e.g. FIND tap WHERE thread=70% AND drill=50, to which the program would then spit out "2-64". The user can also add special operations in a file, like something that would tell you where a specific item was stored in the shop, or some sort of situation-relevant information.
+The user would be able to type into a terminal prompt in a sort of SQL-like access, e.g. FIND tap WHERE thread=70% AND drill=50, to which the program would then spit out "2-64". The user can also add special operations in a file, like something that would tell you where a specific item was stored in the shop, or some sort of situation-relevant information. This makes it so that a user with very low CS knowledge can just use the terminal prompt (or some GUI on top of it), while the person who is setting up the files for the shop can customize things to their own specifications.
 
 ### Operation (semantics)
 
@@ -60,7 +60,7 @@ aren't and conjecture why not. If so, describe them and provide links. How well
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
 
-I wasn't able to find any on the internet, although it's possible that you could consider an existing body of tables, like Machinery's Handbook, 31st Edition, to be a sort of analog DSL in this field. If we consider that to be the existing DSL, I would guess that most machinists have spent their entire career using that (and memorizing especially relevant information), so they don't feel the need for a DSL as keenly as newer machinists.
+I wasn't able to find any on the internet, although it's possible that you could consider an existing body of tables, like Machinery's Handbook, 31st Edition, to be a sort of analog DSL in this field. If we consider that to be the existing DSL, I would guess that most machinists have spent their entire career using that (and memorizing especially relevant information), so they don't feel the need for an actual DSL as keenly as newer machinists.
 
 ## The Project
 
